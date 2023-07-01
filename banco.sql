@@ -1,0 +1,1 @@
+CREATE TABLE dbtcc.visitante (CpfVisitante CHAR(14) NOT NULL , Nome VARCHAR(100) NOT NULL , Senha VARCHAR(30) NOT NULL , Email VARCHAR(70) NOT NULL , Endereco VARCHAR(500) NOT NULL , CpfFuncionario CHAR(14) NULL , PRIMARY KEY (CpfVisitante(14))) ENGINE = InnoDB;
